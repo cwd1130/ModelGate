@@ -1,0 +1,11 @@
+# Claude Code local settings (contains API keys)
+.claude/settings.local.json
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Node (in case any tooling is added later)
+node_modules/
