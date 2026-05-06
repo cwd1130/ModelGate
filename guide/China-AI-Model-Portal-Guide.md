@@ -18,8 +18,8 @@ Every platform handles international users differently. Some accept email sign-u
 5. Zhipu GLM — international phone accepted at `bigmodel.cn`
 6. Tencent Hunyuan — passport verification works on Tencent Cloud Intl
 7. Alibaba Qwen — passport verification on Alibaba Cloud Intl, multi-step
-8. iFlytek Spark — international registration limited
-9. ByteDance Volcano — country-dependent phone support, US blocked
+8. ByteDance Volcano — country-dependent phone support, US blocked
+9. iFlytek Spark — international registration limited
 10. Baidu ERNIE — three account systems, API effectively China-only
 11. Ant Bailing — consumer products only, no public API yet
 12. StepFun — open-source MoE models, strong coding value
@@ -39,6 +39,7 @@ Every platform handles international users differently. Some accept email sign-u
 | 🎵 Music | Not supported | — | — |
 | 🔧 API | V4-Pro / V4-Flash / V3.2 / R1-0528 / Coder V2 | https://platform.deepseek.com/api_keys | V4-Pro $1.74/M in / $3.48/M out；V4-Flash $0.14/M in / $0.28/M out |
 | 🤖 Agent | No official platform — build via Coze / n8n | — | — |
+| 💻 Coding | V4-Pro (widely used via Claude Code / Cursor / Cline) | https://platform.deepseek.com | — |
 | 📖 Docs | — | https://api-docs.deepseek.com | — |
 
 **🌍 International Access — ⭐ Simplest**
@@ -57,13 +58,14 @@ Every platform handles international users differently. Some accept email sign-u
 
 | Feature | Model | URL | Pricing |
 |---------|-------|-----|---------|
-| 💬 Chat | GLM-5.1 / GLM-5 / GLM-4.7-Flash | https://z.ai / https://chatglm.cn | Free |
+| 💬 Chat | GLM-5.1 / GLM-5 / GLM-4.7-Flash | https://z.ai  | Free |
 | 🖼 Image | CogView-4 | https://open.bigmodel.cn | Metered |
 | 🎬 Video | CogVideo-4 | https://open.bigmodel.cn | Metered |
 | 🔊 Voice | GLM-TTS / GLM-ASR | https://open.bigmodel.cn | Metered |
 | 🎵 Music | Not supported | — | — |
 | 🔧 API | GLM-5.1 / GLM-5 / GLM-4.7-Flash / GLM-4.6V / CogView / CogVideo | https://open.bigmodel.cn | GLM-5.1 $1.40/M in / $4.40/M out；GLM-4.7-Flash free |
 | 🤖 Agent | AutoGLM / GLM-PC / CogAgent-9B (open-source) | https://z.ai | — |
+| 💻 Coding | GLM-5.1 / GLM-4.7-Flash (agentic engineering, 8h+ autonomous coding) | https://open.bigmodel.cn | — |
 | 📖 Docs | — | https://open.bigmodel.cn/dev/api | — |
 
 **🌍 International Access — ⭐⭐ Moderate**
@@ -90,6 +92,7 @@ Every platform handles international users differently. Some accept email sign-u
 | 🎵 Music | Not supported | — | — |
 | 🔧 API | Qwen3.5-Flash / Qwen3.5-Omni / Qwen3-Max / Qwen3-Plus / Qwen3-Coder | https://bailian.console.alibabacloud.com | Qwen3-Plus $0.28/M in / $1.12/M out |
 | 🤖 Agent | Bailian console | https://bailian.console.alibabacloud.com | — |
+| 💻 Coding | Qwen3-Coder | https://bailian.console.alibabacloud.com | — |
 | 📖 Docs | — | https://www.alibabacloud.com/help/en/model-studio | — |
 
 **🌍 International Access — ⭐⭐⭐ Difficult**
@@ -116,6 +119,7 @@ Every platform handles international users differently. Some accept email sign-u
 | 🎵 Music | Not supported | — | — |
 | 🔧 API | Seed 2.0 Pro / Seed 2.0 Code / Seedance 2.0 / Doubao-pro | https://console.volcengine.com/ark | Metered |
 | 🤖 Agent | Coze (international) | https://www.coze.com | Free + paid |
+| 💻 Coding | Seed 2.0 Code / Trae AI IDE | https://www.trae.ai | Free |
 | 📖 Docs | — | https://www.volcengine.com/docs/82379 | — |
 
 **🌍 International Access — ⭐⭐⭐⭐ Very difficult**
@@ -140,6 +144,7 @@ Every platform handles international users differently. Some accept email sign-u
 | 🎵 Music | Music 2.6 (AI composition + arrangement) | https://www.minimaxi.com/audio | Metered |
 | 🔧 API | M2.7 / Speech 2.8 / Music 2.6 / Hailuo 2.3 | https://platform.minimax.io | M2.7 $0.30/M in / $1.20/M out |
 | 🤖 Agent | MiniMax Agent | https://www.minimax.io/agent | — |
+| 💻 Coding | M2.7 (supports Claude Code / Cursor / Cline) | https://platform.minimax.io | — |
 | 📖 Docs | — | https://platform.minimax.io/docs | — |
 
 **🌍 International Access — ⭐⭐ Easy**
@@ -163,6 +168,7 @@ Every platform handles international users differently. Some accept email sign-u
 | 🎵 Music | Not supported | — | — |
 | 🔧 API | V2.5-Pro / V2.5-Omni / V2.5-TTS / V2-Flash | https://platform.xiaomimimo.com | V2.5-Pro $0.40/M in / $2.00/M out；Token Plan from ~$5.50/mo |
 | 🤖 Agent | MiMo Claw (OpenClaw / Cline / KiloCode compatible) | https://aistudio.xiaomimimo.com | — |
+| 💻 Coding | V2.5-Pro (compatible with Claude Code / Cursor / Cline) | https://platform.xiaomimimo.com | — |
 | 📖 Docs | — | https://platform.xiaomimimo.com/docs/en-US | — |
 
 **🌍 International Access — ⭐⭐ Easy**
@@ -188,6 +194,7 @@ Every platform handles international users differently. Some accept email sign-u
 | 🎵 Music | Not supported | — | — |
 | 🔧 API | K2.6 / K2.5 | https://platform.kimi.ai | K2.6 $0.60/M in / $2.40/M out |
 | 🤖 Agent | Built-in Agent mode / Agent Swarm (300+ sub-agents) | https://www.kimi.com | — |
+| 💻 Coding | K2.6 / Kimi Code (in-browser) | https://www.kimi.com | — |
 | 📖 Docs | — | https://platform.kimi.ai/docs | — |
 
 **🌍 International Access — ⭐ Simplest**
@@ -213,6 +220,7 @@ Every platform handles international users differently. Some accept email sign-u
 | 🎵 Music | Not supported | — | — |
 | 🔧 API | HY 3.0 / T1 / HY 2.0 / Image 3.0 / 3D 3.0 | https://console.cloud.tencent.com/hunyuan | Metered, post-pay billing required |
 | 🤖 Agent | Tencent Yuanqi | https://yuanqi.tencent.com | — |
+| 💻 Coding | Codebuddy | https://copilot.tencent.com | — |
 | 📖 Docs | — | https://cloud.tencent.com/document/product/1729 | — |
 
 **🌍 International Access — ⭐⭐⭐ Moderate**
@@ -237,6 +245,7 @@ Every platform handles international users differently. Some accept email sign-u
 | 🎵 Music | Not supported | — | — |
 | 🔧 API | Spark V4.0 / Multimodal / TTS / ASR | https://xinghuo.xfyun.cn/sparkapi | Metered, free quota available |
 | 🤖 Agent | iFlytek Open Platform | https://www.xfyun.cn | — |
+| 💻 Coding | Spark V4.0 (via API) | https://xinghuo.xfyun.cn/sparkapi | — |
 | 📖 Docs | — | https://global.xfyun.cn/doc | — |
 
 **🌍 International Access — ⭐⭐⭐ Difficult**
@@ -261,6 +270,7 @@ Every platform handles international users differently. Some accept email sign-u
 | 🎵 Music | Not supported | — | — |
 | 🔧 API | ERNIE 5.0 / X1 / Speed / Lite | https://console.bce.baidu.com/qianfan | Metered；Auth: Key+Secret → access_token (30-day validity, extra step vs others) |
 | 🤖 Agent | Qianfan console | https://console.bce.baidu.com/qianfan | — |
+| 💻 Coding | ERNIE 5.0 / X1 (via Qianfan API) | https://console.bce.baidu.com/qianfan | — |
 | 📖 Docs | — | https://cloud.baidu.com/doc/WENXINWORKSHOP | — |
 
 **🌍 International Access — ⭐⭐⭐⭐⭐ Hardest**
@@ -287,6 +297,7 @@ Every platform handles international users differently. Some accept email sign-u
 | 🎵 Music | Not supported | — | — |
 | 🔧 API | Ling-2.6-flash (April 2026) | https://www.ant-ling.com/zh/ (currently consumer-product-first; public API in progress) | TBA |
 | 🤖 Agent | Zhixiaobao / Alipay AI Pay (120M+ weekly txn) / Health AQ (100M+ users) | Alipay app | — |
+| 💻 Coding | Ling-2.6-flash (via API) | https://www.ant-ling.com/zh/ | — |
 | 📖 Docs | — | https://www.ant-ling.com/zh/ | — |
 
 **🌍 International Access — ⭐⭐⭐⭐⭐ Limited**
@@ -311,6 +322,7 @@ Every platform handles international users differently. Some accept email sign-u
 | 🎵 Music | Not supported | — | — |
 | 🔧 API | Step 3.5 Flash / Step3 | https://platform.stepfun.ai | Step 3.5 Flash $0.10/M in / $0.30/M out；Monthly plans from ~$5.50/mo |
 | 🤖 Agent | StepFun Open Platform | https://platform.stepfun.ai | — |
+| 💻 Coding | Step 3.5 Flash (MoE 196B/11B, strong reasoning & coding) | https://platform.stepfun.ai | — |
 | 📖 Docs | — | https://platform.stepfun.ai/docs | — |
 
 **🌍 International Access — ⭐⭐ Moderate**
@@ -329,14 +341,14 @@ Every platform handles international users differently. Some accept email sign-u
 | Platform | Non-Chinese Phone OK? | No Chinese ID Needed? | Separate Chat/API Account? | Overall |
 |----------|----------------------|----------------------|---------------------------|---------|
 | **DeepSeek** | ✅ Email-only in most regions | ✅ Yes | ❌ Same account | ⭐ Easiest |
-| **Kimi / Moonshot** | ✅ Yes (use `kimi.com`) | ✅ Yes | ❌ Same account | ⭐ Easiest |
+| **Zhipu GLM** | ✅ International phone OK | ✅ Yes | ❌ Same account | ⭐⭐ Moderate |
+| **Alibaba Qwen** | ✅ Yes (intl. Alibaba Cloud) | ✅ Passport accepted | ⚠️ Same but multi-step | ⭐⭐⭐ Difficult |
+| **ByteDance Volcano** | ⚠️ Country-dependent (US blocked) | ⚠️ Chinese ID for payment | ❌ Separate (Douyin vs Volcano) | ⭐⭐⭐⭐ Very difficult |
 | **MiniMax** | ✅ Yes (Google/GitHub OAuth) | ✅ Yes | ❌ Separate (chat vs API) | ⭐⭐ Easy |
 | **Xiaomi MiMo** | ✅ Likely | ✅ Yes | ❌ Same account | ⭐⭐ Easy |
-| **Zhipu GLM** | ✅ International phone OK | ✅ Yes | ❌ Same account | ⭐⭐ Moderate |
+| **Kimi / Moonshot** | ✅ Yes (use `kimi.com`) | ✅ Yes | ❌ Same account | ⭐ Easiest |
 | **Tencent Hunyuan** | ✅ Yes (intl. site) | ✅ Passport accepted | ❌ Separate (WeChat vs Cloud) | ⭐⭐⭐ Moderate |
-| **Alibaba Qwen** | ✅ Yes (intl. Alibaba Cloud) | ✅ Passport accepted | ⚠️ Same but multi-step | ⭐⭐⭐ Difficult |
 | **iFlytek Spark** | ⚠️ Limited international | ⚠️ Primarily domestic | ⚠️ Separate | ⭐⭐⭐ Difficult |
-| **ByteDance Volcano** | ⚠️ Country-dependent (US blocked) | ⚠️ Chinese ID for payment | ❌ Separate (Douyin vs Volcano) | ⭐⭐⭐⭐ Very difficult |
 | **Baidu ERNIE** | ⚠️ Partial (AI Studio) | ❌ Required for API | ❌ Three separate systems | ⭐⭐⭐⭐⭐ Hardest |
 | **Ant Bailing** | ❌ Consumer-only | ❌ Alipay ecosystem | N/A (no public API) | ⭐⭐⭐⭐⭐ Unavailable |
 | **StepFun** | ✅ International phone OK | ✅ Yes | ❌ Same account | ⭐⭐ Moderate |
@@ -352,12 +364,15 @@ Every platform handles international users differently. Some accept email sign-u
 | Zhipu | GLM-5.1 | $1.40 | $4.40 |
 | Zhipu | GLM-4.7-Flash | Free | Free |
 | Alibaba | Qwen3-Plus | $0.28 | $1.12 |
+| ByteDance | Seed 2.0 Pro | Metered | Metered |
 | MiniMax | M2.7 | $0.30 | $1.20 |
 | Xiaomi | V2.5-Pro | $0.40 | $2.00 |
 | Kimi | K2.6 | $0.60 | $2.40 |
-| Baidu | ERNIE 5.0 | Metered | Metered |
-| StepFun | Step 3.5 Flash | $0.10 | $0.30 |
+| Tencent | HY 3.0 | Metered | Metered |
 | iFlytek | Spark V4.0 | Metered (free quota) | Metered |
+| Baidu | ERNIE 5.0 | Metered | Metered |
+| Ant Bailing | Ling-2.6-flash | TBA | TBA |
+| StepFun | Step 3.5 Flash | $0.10 | $0.30 |
 
 ---
 
