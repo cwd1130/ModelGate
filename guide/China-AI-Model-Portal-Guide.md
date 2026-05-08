@@ -1,7 +1,37 @@
 # 🪴 China AI Model Portal Guide
 
 > For non-Chinese citizens & international developers · May 2026
-> Covers 12 providers: Chat / Image / Video / Voice / Music / API / Agent / Docs
+> Covers 12 providers: Chat / Image / Video / Voice / Music / API / Coding / Agent / Docs
+
+---
+
+## How to use this guide
+
+1. **Find your use case** — Each platform table has 9 rows: Chat, Image, Video, Voice, Music, API, Coding, Agent, Docs. Scan the feature column for what you need.
+2. **Check international access** — Every section has a 🌍 **International Access** block with a ⭐ rating. Outside China? Start with ⭐ Simplest.
+3. **Compare prices** — API pricing at the bottom of each table. See the [API Pricing Quick Reference](#-api-pricing-quick-reference) and coding plan subscriptions for cross-platform comparison.
+
+## Key terms
+
+| Term | What it means |
+|------|---------------|
+| **Token** | ~0.75 English words. Prices are per 1 million tokens (1M). A 1000-word article costs ~1.3K tokens. |
+| **$0.14/M in / $0.28/M out** | $0.14 per 1M input tokens, $0.28 per 1M output tokens. Output costs more because the model generates new text. |
+| **MoE** (Mixture of Experts) | Only a fraction of total parameters activate per query — faster inference, lower cost. |
+| **Context window** | How much text the model can "remember" in one conversation. 200K ≈ 150K English words ≈ a long novel. |
+| **2.5折 / 75% off** | Paying 25% of the list price. 2.5折 = 75% discount. |
+
+## Where should I start?
+
+| I want to... | Try this first |
+|--------------|----------------|
+| 💬 **Chat for free** | DeepSeek, Kimi, Qwen, Zhipu |
+| 🔧 **Call API (cheapest)** | DeepSeek V4-Flash ($0.14/M), StepFun 3.5 Flash ($0.10/M) |
+| 💻 **Vibe code / AI coding** | DeepSeek V4-Pro, Kimi K2.6, MiniMax M2.7 |
+| 🖼 **Generate images** | Zhipu CogView-4, ByteDance Jimeng (Seedream) |
+| 🎬 **Generate video** | Alibaba HappyHorse (#1 globally), MiniMax Hailuo, ByteDance Seedance |
+| 🔊 **Voice / TTS** | iFlytek (best Chinese voice), MiniMax Speech 2.8 |
+| 🎵 **AI music** | MiniMax Music 2.6 (only option among 12) |
 
 ---
 
@@ -38,7 +68,7 @@ Every platform handles international users differently. Some accept email sign-u
 | 🔊 Voice | Not supported | — | — |
 | 🎵 Music | Not supported | — | — |
 | 🔧 API | V4-Pro / V4-Flash / V3.2 / R1-0528 / Coder V2 | https://platform.deepseek.com/api_keys | V4-Flash $0.14/M in / $0.28/M out；V4-Pro list price $1.74/M in / $3.48/M out (75% off / 2.5折 at $0.435/$0.87, extended through 2026/05/31 23:59 Beijing Time) |
-| 💻 Coding | No official Monthly Plan (use API above) | — | — |
+| 💻 Coding | No official Coding Plan — use API directly | — | — |
 | 🤖 Agent | No official platform — build via Coze / n8n | — | — |
 | 📖 Docs | — | https://api-docs.deepseek.com | — |
 

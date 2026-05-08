@@ -1,5 +1,6 @@
-# Claude Code local settings (contains API keys)
-.claude/settings.local.json
+# Claude Code (local config, skills, plans — not for GitHub)
+.claude/
+CLAUDE.md
 
 # OS generated files
 .DS_Store
